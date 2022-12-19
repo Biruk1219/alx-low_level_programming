@@ -11,7 +11,7 @@ void print_array(int *a, int n)
 {
 	int initial = 0;
 
-	for (; initial < n; i++)
+	for (; initial < n; initial++)
 	{
 		printf("%d", *(a + initial));
 		if (initial != (n - 1))
