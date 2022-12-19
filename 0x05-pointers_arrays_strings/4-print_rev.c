@@ -10,7 +10,7 @@
 
 void print_rev(char *s)
 {
-	int length = strlen(s);/*length variable hold string length value of s*/ 
+	int length = strlen(s);
 
 	while (length--)
 		putchar(*(s + length));
