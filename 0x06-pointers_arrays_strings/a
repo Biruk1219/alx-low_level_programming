@@ -1,0 +1,26 @@
+nclude <stdio.h>
+
+/**
+ *leet - encodes a string into 1337
+ *@s: input string.
+ *Return: the pointer to dest.
+ */
+
+	int upp_letters[] = {65, 69, 79, 84, 76};
+	int numbers[] = {52, 51, 48, 55, 49};
+
+	while (*(s + count) != '\0')
+	{
+		for (x = 0; x < 5; x++)
+	{
+		if (*(s + count) == low_letters[x] || *(s + count) == upp_letters[x])
+		{
+			*(s + count) = numbers[x];
+				break;
+		}
+	}
+		count++;
+	}
+	return (s);
+}
+
