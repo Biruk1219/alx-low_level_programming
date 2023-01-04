@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _puts_recursion - prints string with new line
  * Return: no return
